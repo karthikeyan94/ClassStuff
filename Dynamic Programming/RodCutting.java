@@ -3,7 +3,9 @@ class RodCutting {
 	
 	public static void main(String arg[]) throws Exception {
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.print("Enter the length of the rod : ");
+		
 		int n = sc.nextInt();
 		int p[] = new int[n+1];
 		int r[] = new int[n+1];
